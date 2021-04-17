@@ -1,0 +1,117 @@
+{
+	"resource": "/",
+	"path": "/",
+	"httpMethod": "POST",
+	"headers": {
+		"CloudFront-Forwarded-Proto": "https",
+		"CloudFront-Is-Desktop-Viewer": "true",
+		"CloudFront-Is-Mobile-Viewer": "false",
+		"CloudFront-Is-SmartTV-Viewer": "false",
+		"CloudFront-Is-Tablet-Viewer": "false",
+		"CloudFront-Viewer-Country": "US",
+		"Content-Type": "application/json",
+		"Host": "znihbflu8h.execute-api.us-east-1.amazonaws.com",
+		"User-Agent": "Amazon Kinesis Data Firehose Agent/1.0",
+		"Via": "1.1 5c91d033409cd7607633594f94b09065.cloudfront.net (CloudFront)",
+		"X-Amz-Cf-Id": "Ip9yay99AABxznNB8de_PDflhiZSOkx34GyNNrRmaf3wJpI7yVcW-w==",
+		"X-Amz-Firehose-Protocol-Version": "1.0",
+		"X-Amz-Firehose-Request-Id": "810c7983-cec8-4489-86c7-2cc0a9b25942",
+		"X-Amz-Firehose-Source-Arn": "arn:aws:firehose:us-east-1:379951292773:deliverystream/taxi-delivery-stream",
+		"X-Amzn-Trace-Id": "Root=1-607aadc9-597ac8d57e72600114d3bec2",
+		"X-Forwarded-For": "34.229.142.189, 70.132.33.92",
+		"X-Forwarded-Port": "443",
+		"X-Forwarded-Proto": "https"
+	},
+	"multiValueHeaders": {
+		"CloudFront-Forwarded-Proto": [
+			"https"
+		],
+		"CloudFront-Is-Desktop-Viewer": [
+			"true"
+		],
+		"CloudFront-Is-Mobile-Viewer": [
+			"false"
+		],
+		"CloudFront-Is-SmartTV-Viewer": [
+			"false"
+		],
+		"CloudFront-Is-Tablet-Viewer": [
+			"false"
+		],
+		"CloudFront-Viewer-Country": [
+			"US"
+		],
+		"Content-Type": [
+			"application/json"
+		],
+		"Host": [
+			"znihbflu8h.execute-api.us-east-1.amazonaws.com"
+		],
+		"User-Agent": [
+			"Amazon Kinesis Data Firehose Agent/1.0"
+		],
+		"Via": [
+			"1.1 5c91d033409cd7607633594f94b09065.cloudfront.net (CloudFront)"
+		],
+		"X-Amz-Cf-Id": [
+			"Ip9yay99AABxznNB8de_PDflhiZSOkx34GyNNrRmaf3wJpI7yVcW-w=="
+		],
+		"X-Amz-Firehose-Protocol-Version": [
+			"1.0"
+		],
+		"X-Amz-Firehose-Request-Id": [
+			"810c7983-cec8-4489-86c7-2cc0a9b25942"
+		],
+		"X-Amz-Firehose-Source-Arn": [
+			"arn:aws:firehose:us-east-1:379951292773:deliverystream/taxi-delivery-stream"
+		],
+		"X-Amzn-Trace-Id": [
+			"Root=1-607aadc9-597ac8d57e72600114d3bec2"
+		],
+		"X-Forwarded-For": [
+			"34.229.142.189, 70.132.33.92"
+		],
+		"X-Forwarded-Port": [
+			"443"
+		],
+		"X-Forwarded-Proto": [
+			"https"
+		]
+	},
+	"queryStringParameters": null,
+	"multiValueQueryStringParameters": null,
+	"pathParameters": null,
+	"stageVariables": null,
+	"requestContext": {
+		"resourceId": "1zdgy53vn8",
+		"resourcePath": "/",
+		"httpMethod": "POST",
+		"extendedRequestId": "d7AXhGRqIAMFTaw=",
+		"requestTime": "17/Apr/2021:09:43:37 +0000",
+		"path": "/dev",
+		"accountId": "379951292773",
+		"protocol": "HTTP/1.1",
+		"stage": "dev",
+		"domainPrefix": "znihbflu8h",
+		"requestTimeEpoch": 1618652617685,
+		"requestId": "f9b91479-6bd5-4f44-8895-8797ec35e8ef",
+		"identity": {
+			"cognitoIdentityPoolId": null,
+			"accountId": null,
+			"cognitoIdentityId": null,
+			"caller": null,
+			"sourceIp": "34.229.142.189",
+			"principalOrgId": null,
+			"accessKey": null,
+			"cognitoAuthenticationType": null,
+			"cognitoAuthenticationProvider": null,
+			"userArn": null,
+			"userAgent": "Amazon Kinesis Data Firehose Agent/1.0",
+			"user": null
+		},
+		"domainName": "znihbflu8h.execute-api.us-east-1.amazonaws.com",
+		"apiId": "znihbflu8h"
+	},
+	"body": "{\"requestId\":\"810c7983-cec8-4489-86c7-2cc0a9b25942\",\"timestamp\":1618652617674,\"records\":[{\"data\":\"eyJUUklQX0NPVU5UIjoxODEsIlBBU1NFTkdFUl9DT1VOVCI6MzM3LCJUT1RBTF9BTU9VTlQiOjI2NzUuMzg5fQ==\"},{\"data\":\"eyJUUklQX0NPVU5UIjozNjUyLCJQQVNTRU5HRVJfQ09VTlQiOjY4NzYsIlRPVEFMX0FNT1VOVCI6NDAzMjUuOTZ9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo5OTQsIlBBU1NFTkdFUl9DT1VOVCI6MTkyNSwiVE9UQUxfQU1PVU5UIjoxMDYwNC45NjN9\"},{\"data\":\"eyJUUklQX0NPVU5UIjoyMDA2LCJQQVNTRU5HRVJfQ09VTlQiOjM4MDUsIlRPVEFMX0FNT1VOVCI6MjI1NzQuNjU0fQ==\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4MjYsIlBBU1NFTkdFUl9DT1VOVCI6MTU2MiwiVE9UQUxfQU1PVU5UIjo5MDE0Ljg0Mn0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo5NDgsIlBBU1NFTkdFUl9DT1VOVCI6MTg3NCwiVE9UQUxfQU1PVU5UIjoxMDM2NC42MDl9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4ODEsIlBBU1NFTkdFUl9DT1VOVCI6MTY2OSwiVE9UQUxfQU1PVU5UIjo5NTUyLjk5M30=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4MTcsIlBBU1NFTkdFUl9DT1VOVCI6MTU2MywiVE9UQUxfQU1PVU5UIjo4NjM5LjY0M30=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo3OTcsIlBBU1NFTkdFUl9DT1VOVCI6MTU1NCwiVE9UQUxfQU1PVU5UIjo4ODMxLjE1N30=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo5NjYsIlBBU1NFTkdFUl9DT1VOVCI6MTg2MSwiVE9UQUxfQU1PVU5UIjoxMDUxMi4wMTd9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4MDEsIlBBU1NFTkdFUl9DT1VOVCI6MTUwOCwiVE9UQUxfQU1PVU5UIjo5MTkxLjIyNX0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4MzcsIlBBU1NFTkdFUl9DT1VOVCI6MTU2OCwiVE9UQUxfQU1PVU5UIjo5NTE4LjA5OH0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo3ODMsIlBBU1NFTkdFUl9DT1VOVCI6MTQ5MSwiVE9UQUxfQU1PVU5UIjo4NjUwLjYyM30=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo5MDEsIlBBU1NFTkdFUl9DT1VOVCI6MTczMywiVE9UQUxfQU1PVU5UIjoxMDEwNS4wMTJ9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo3MzcsIlBBU1NFTkdFUl9DT1VOVCI6MTM5NCwiVE9UQUxfQU1PVU5UIjo4Mjk5LjMzMn0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4OTMsIlBBU1NFTkdFUl9DT1VOVCI6MTcwMiwiVE9UQUxfQU1PVU5UIjoxMDA0MC45MDh9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2NzksIlBBU1NFTkdFUl9DT1VOVCI6MTI0OSwiVE9UQUxfQU1PVU5UIjo3NzUwLjY3MDR9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo4MDYsIlBBU1NFTkdFUl9DT1VOVCI6MTUxMywiVE9UQUxfQU1PVU5UIjo4ODM1Ljg2OX0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo3MDEsIlBBU1NFTkdFUl9DT1VOVCI6MTI3NCwiVE9UQUxfQU1PVU5UIjo4MDg4LjcxOH0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2NzQsIlBBU1NFTkdFUl9DT1VOVCI6MTIyNSwiVE9UQUxfQU1PVU5UIjo3NDE5LjE1MDR9\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2NDMsIlBBU1NFTkdFUl9DT1VOVCI6MTE4MywiVE9UQUxfQU1PVU5UIjo3MTI0LjcxOX0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo3MzEsIlBBU1NFTkdFUl9DT1VOVCI6MTQwMSwiVE9UQUxfQU1PVU5UIjo4MzczLjQwNn0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2NDksIlBBU1NFTkdFUl9DT1VOVCI6MTI3MCwiVE9UQUxfQU1PVU5UIjo3Mjg0LjIwMn0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2MzEsIlBBU1NFTkdFUl9DT1VOVCI6MTEzOCwiVE9UQUxfQU1PVU5UIjo3MDIwLjQ3Mn0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo3NjAsIlBBU1NFTkdFUl9DT1VOVCI6MTQ1MSwiVE9UQUxfQU1PVU5UIjo4NjQzLjgyMX0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2MTgsIlBBU1NFTkdFUl9DT1VOVCI6MTE5MiwiVE9UQUxfQU1PVU5UIjo3MTEwLjU1Mn0=\"},{\"data\":\"eyJUUklQX0NPVU5UIjo2NDksIlBBU1NFTkdFUl9DT1VOVCI6MTE5NywiVE9UQUxfQU1PVU5UIjo3MjQ3LjYyfQ==\"}]}",
+	"isBase64Encoded": false
+}
